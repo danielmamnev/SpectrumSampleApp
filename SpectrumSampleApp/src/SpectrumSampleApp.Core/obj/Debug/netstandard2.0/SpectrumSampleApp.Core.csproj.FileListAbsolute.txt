@@ -1,0 +1,9 @@
+/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/bin/Debug/netstandard2.0/SpectrumSampleApp.Core.deps.json
+/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/bin/Debug/netstandard2.0/SpectrumSampleApp.Core.dll
+/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/bin/Debug/netstandard2.0/SpectrumSampleApp.Core.pdb
+/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/obj/Debug/netstandard2.0/SpectrumSampleApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/obj/Debug/netstandard2.0/SpectrumSampleApp.Core.AssemblyInfoInputs.cache
+/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/obj/Debug/netstandard2.0/SpectrumSampleApp.Core.AssemblyInfo.cs
+/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/obj/Debug/netstandard2.0/SpectrumSampleApp.Core.csproj.CoreCompileInputs.cache
+/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/obj/Debug/netstandard2.0/SpectrumSampleApp.Core.dll
+/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/obj/Debug/netstandard2.0/SpectrumSampleApp.Core.pdb

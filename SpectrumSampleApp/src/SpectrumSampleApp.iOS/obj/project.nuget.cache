@@ -1,0 +1,38 @@
+{
+  "version": 2,
+  "dgSpecHash": "erQd+XWXIH7M+1U3xq1aXZMu6qRQXAHxkeycuZFaBwV7Ai7WLivZghFRZNNvQ2rvugUzZOhPjdGD6VJaXFEYHQ==",
+  "success": true,
+  "projectFilePath": "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.iOS/SpectrumSampleApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/danielmamnev/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.0.0/microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512",
+    "/Users/danielmamnev/.nuget/packages/microsoft.extensions.logging/2.0.0/microsoft.extensions.logging.2.0.0.nupkg.sha512",
+    "/Users/danielmamnev/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/danielmamnev/.nuget/packages/microsoft.extensions.options/2.0.0/microsoft.extensions.options.2.0.0.nupkg.sha512",
+    "/Users/danielmamnev/.nuget/packages/microsoft.extensions.primitives/2.0.0/microsoft.extensions.primitives.2.0.0.nupkg.sha512",
+    "/Users/danielmamnev/.nuget/packages/mvvmcross/8.0.2/mvvmcross.8.0.2.nupkg.sha512",
+    "/Users/danielmamnev/.nuget/packages/mvvmcross.forms/8.0.2/mvvmcross.forms.8.0.2.nupkg.sha512",
+    "/Users/danielmamnev/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/Users/danielmamnev/.nuget/packages/serilog/2.8.0/serilog.2.8.0.nupkg.sha512",
+    "/Users/danielmamnev/.nuget/packages/serilog.extensions.logging/3.0.1/serilog.extensions.logging.3.0.1.nupkg.sha512",
+    "/Users/danielmamnev/.nuget/packages/serilog.sinks.xamarin/0.2.0.64/serilog.sinks.xamarin.0.2.0.64.nupkg.sha512",
+    "/Users/danielmamnev/.nuget/packages/system.collections.nongeneric/4.3.0/system.collections.nongeneric.4.3.0.nupkg.sha512",
+    "/Users/danielmamnev/.nuget/packages/system.runtime.compilerservices.unsafe/4.4.0/system.runtime.compilerservices.unsafe.4.4.0.nupkg.sha512",
+    "/Users/danielmamnev/.nuget/packages/xam.plugins.settings/3.1.1/xam.plugins.settings.3.1.1.nupkg.sha512",
+    "/Users/danielmamnev/.nuget/packages/xamarin.forms/5.0.0.2125/xamarin.forms.5.0.0.2125.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: Xamarin.Forms from 5.0.0.2515 to 5.0.0.2125. Reference the package directly from the project to select a different version. \n SpectrumSampleApp.iOS -> SpectrumSampleApp.Core -> Xamarin.Forms (>= 5.0.0.2515) \n SpectrumSampleApp.iOS -> Xamarin.Forms (>= 5.0.0.2125)",
+      "libraryId": "Xamarin.Forms",
+      "targetGraphs": [
+        "Xamarin.iOS,Version=v1.0",
+        "Xamarin.iOS,Version=v1.0/win",
+        "Xamarin.iOS,Version=v1.0/win-x64",
+        "Xamarin.iOS,Version=v1.0/win-x86"
+      ]
+    }
+  ]
+}

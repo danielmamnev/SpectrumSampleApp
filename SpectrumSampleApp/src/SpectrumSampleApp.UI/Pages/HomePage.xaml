@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:MvxContentPage
+    x:Class="SpectrumSampleApp.UI.Pages.HomePage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:converters="clr-namespace:SpectrumSampleApp.Core.Converters;assembly=SpectrumSampleApp.Core"
+    xmlns:local="clr-namespace:SpectrumSampleApp.UI.Pages"
+    xmlns:mvx="clr-namespace:MvvmCross.Forms.Bindings;assembly=MvvmCross.Forms"
+    xmlns:viewModels="clr-namespace:SpectrumSampleApp.Core.ViewModels.Home;assembly=SpectrumSampleApp.Core"
+    xmlns:views="clr-namespace:MvvmCross.Forms.Views;assembly=MvvmCross.Forms"
+    Title="Home"
+    x:TypeArguments="viewModels:HomeViewModel">
+    <ContentPage.Content>
+
+        <StackLayout BackgroundColor="{StaticResource PrimaryColor}">
+            <StackLayout BackgroundColor="{StaticResource AccentColor}" Orientation="Horizontal">
+                <Label
+                    HorizontalOptions="CenterAndExpand"
+                    Text="{Binding WelcomeText}"
+                    TextColor="White"
+                    VerticalOptions="CenterAndExpand" />
+                <Button
+                    Margin="10,0"
+                    Clicked="Button_Clicked"
+                    HorizontalOptions="EndAndExpand"
+                    Text="Sort"
+                    TextColor="White" />
+            </StackLayout>
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                IsVisible="{Binding ShowList, Converter={x:Static converters:Converters.NegatedConverter}}"
+                Text="No results found"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand" />
+            <ListView
+                BackgroundColor="{StaticResource PrimaryColor}"
+                HasUnevenRows="True"
+                IsVisible="{Binding ShowList}"
+                ItemsSource="{Binding Articles}"
+                RefreshCommand="{Binding OnModalClosedCommand}"
+                SelectedItem="{Binding ArticleSelected, Mode=TwoWay}"
+                VerticalScrollBarVisibility="Always">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid
+                                BackgroundColor="White"
+                                ColumnDefinitions="1*, 2*, Auto"
+                                RowDefinitions="1*">
+
+                                <Label
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    Grid.ColumnSpan="2"
+                                    FontSize="Medium"
+                                    Text="{Binding title, Converter={x:Static converters:Converters.TruncatedTextConverter}}"
+                                    VerticalOptions="CenterAndExpand"
+                                    VerticalTextAlignment="Center" />
+                                <Image
+                                    Grid.Row="0"
+                                    Grid.RowSpan="1"
+                                    Grid.Column="0"
+                                    BackgroundColor="{x:StaticResource PrimaryColor}"
+                                    Source="{Binding ImageURL}" />
+
+                            </Grid>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</views:MvxContentPage>

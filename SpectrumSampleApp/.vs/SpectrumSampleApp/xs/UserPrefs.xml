@@ -1,0 +1,64 @@
+﻿<Properties StartupConfiguration="{38726560-5D4E-4292-A557-63C01DBE4D0C}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="src/SpectrumSampleApp.Core/Services/RestService.cs">
+    <Files>
+      <File FileName="src/SpectrumSampleApp.UI/Pages/HomePage.xaml.cs" Line="36" Column="1" IsPinned="True" />
+      <File FileName="src/SpectrumSampleApp.Core/ViewModels/Home/HomeViewModel.cs" Line="105" Column="1" IsPinned="True" />
+      <File FileName="src/SpectrumSampleApp.UI/Pages/HomePage.xaml" Line="48" Column="101" />
+      <File FileName="src/SpectrumSampleApp.UI/Pages/Modals/SortArticleModal.xaml" Line="56" Column="1" />
+      <File FileName="src/SpectrumSampleApp.UI/Pages/Modals/SortArticleModal.xaml.cs" Line="12" Column="35" />
+      <File FileName="src/SpectrumSampleApp.Core/CustomControls/CustomPicker.cs" Line="7" Column="6" />
+      <File FileName="src/SpectrumSampleApp.iOS/CustomPickerRendererIOS.cs" Line="41" Column="1" />
+      <File FileName="src/SpectrumSampleApp.UI/Resources/Colors.xaml" Line="12" Column="6" />
+      <File FileName="src/SpectrumSampleApp.UI/Pages/ArticleDetailPage.xaml" Line="36" Column="104" />
+      <File FileName="src/SpectrumSampleApp.Core/Converters/Converters.cs" Line="12" Column="59" />
+      <File FileName="src/SpectrumSampleApp.Core/EntryBehavior.cs" Line="19" Column="41" />
+      <File FileName="src/SpectrumSampleApp.Droid/CustomPickerRendererDroid.cs" Line="33" Column="14" />
+      <File FileName="src/SpectrumSampleApp.iOS/AudioService.cs" Line="29" Column="1" />
+      <File FileName="src/SpectrumSampleApp.Droid/AudioService.cs" Line="17" Column="1" />
+      <File FileName="src/SpectrumSampleApp.iOS/Main.cs" Line="9" Column="1" />
+      <File FileName="src/SpectrumSampleApp.Droid/Views/MainActivity.cs" Line="26" Column="1" />
+      <File FileName="src/SpectrumSampleApp.Core/Services/DataService.cs" Line="39" Column="6" />
+      <File FileName="src/SpectrumSampleApp.Core/Services/RestService.cs" Line="29" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Option id="ShowAllFiles" value="True" />
+          <Node name="SpectrumSampleApp" expanded="True">
+            <Node name="SpectrumSampleApp.Core" expanded="True">
+              <Node name="Services" expanded="True">
+                <Node name="RestService.cs" selected="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True">
+                <Node name="Home" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="SpectrumSampleApp.Droid" expanded="True">
+              <Node name="Assets" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+            <Node name="SpectrumSampleApp.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+            <Node name="SpectrumSampleApp.UI" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Modals" expanded="True" />
+                <Node name="ArticleDetailPage.xaml" expanded="True" />
+                <Node name="HomePage.xaml" expanded="True" />
+              </Node>
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SpectrumSampleApp.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.424EF780-FAA7-42DF-9253-59360F5B0136" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SpectrumSampleApp.Droid PreferredExecutionTarget="Android.pixel_2_q_10_0_-_api_29" />
+</Properties>
