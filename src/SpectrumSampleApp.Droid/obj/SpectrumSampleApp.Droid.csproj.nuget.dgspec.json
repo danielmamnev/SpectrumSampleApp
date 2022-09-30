@@ -1,0 +1,225 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Droid/SpectrumSampleApp.Droid.csproj": {}
+  },
+  "projects": {
+    "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/SpectrumSampleApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/SpectrumSampleApp.Core.csproj",
+        "projectName": "SpectrumSampleApp.Core",
+        "projectPath": "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/SpectrumSampleApp.Core.csproj",
+        "packagesPath": "/Users/danielmamnev/.nuget/packages/",
+        "outputPath": "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/danielmamnev/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Xam.Plugins.Settings": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2515, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Droid/SpectrumSampleApp.Droid.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Droid/SpectrumSampleApp.Droid.csproj",
+        "projectName": "SpectrumSampleApp.Android",
+        "projectPath": "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Droid/SpectrumSampleApp.Droid.csproj",
+        "packagesPath": "/Users/danielmamnev/.nuget/packages/",
+        "outputPath": "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Droid/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/danielmamnev/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {
+              "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/SpectrumSampleApp.Core.csproj": {
+                "projectPath": "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/SpectrumSampleApp.Core.csproj"
+              },
+              "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.UI/SpectrumSampleApp.UI.csproj": {
+                "projectPath": "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.UI/SpectrumSampleApp.UI.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "MvvmCross.DroidX.Material": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "MvvmCross.Forms": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Sinks.Xamarin": {
+              "target": "Package",
+              "version": "[0.2.0.64, )"
+            },
+            "Xamarin.AndroidX.Core": {
+              "target": "Package",
+              "version": "[1.6.0.3, )"
+            },
+            "Xamarin.AndroidX.RecyclerView": {
+              "target": "Package",
+              "version": "[1.2.1.3, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2125, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.4.0.4, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.UI/SpectrumSampleApp.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.UI/SpectrumSampleApp.UI.csproj",
+        "projectName": "SpectrumSampleApp.UI",
+        "projectPath": "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.UI/SpectrumSampleApp.UI.csproj",
+        "packagesPath": "/Users/danielmamnev/.nuget/packages/",
+        "outputPath": "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.UI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/danielmamnev/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/SpectrumSampleApp.Core.csproj": {
+                "projectPath": "/Users/danielmamnev/SpectrumSampleApp/src/SpectrumSampleApp.Core/SpectrumSampleApp.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "MvvmCross": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "MvvmCross.Forms": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
